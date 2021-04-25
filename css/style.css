@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500;1,700&family=Open+Sans:wght@300&display=swap");
+body {
+    font-family: Open-Sans, sans-serif;
+    padding-top: 65px;
+    background-color: rgb(166, 164, 157);
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    z-index: 20;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(222, 222, 222);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#main {
+    text-align: center;
+    min-width: 400px;
+}
+
+#img-caption {
+    text-align: center;
+}
+
+#main h2 {
+    font-family: Cabin, sans-serif;
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+}
+
+#main p {
+    margin: 0;
+    font-size: 6vw;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#img-div {
+    background-color: rgb(222, 222, 222);
+    padding: 15px;
+}
+
+#img-caption {
+    padding: 5px;
+}
+
+#tribute-info {
+    width: 800px;
+    margin: 50px auto;
+}
+
+#tribute-info h3 {
+    text-align: center;
+}
+
+#tribute-info ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#tribute-info li {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.album {
+    position: relative;
+}
+
+.album .album-img {
+    width: 100%;
+    height: 100%;
+}
+
+.album .album-overlay {
+    background-color: rgb(32, 32, 32);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: rgb(222, 222, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.album .album-overlay:hover {
+    opacity: 1;
+}
+
+.release-date {
+    font-size: 0.8em;
+}
+
+.album-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+#videos {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.video-list .iframe-one {
+    margin-top: 20px;
+}
+
+#follow {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(222, 222, 222);
+    margin: 15px;
+}
+
+#follow {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#follow ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#follow li {
+    font-size: 2em;
+    margin: 0 8px;
+}
+
+#follow li a {
+    color: rgb(222, 222, 222);
+}
